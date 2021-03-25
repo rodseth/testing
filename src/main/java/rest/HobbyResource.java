@@ -3,10 +3,7 @@ package rest;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import dtos.HobbyDTO;
-import dtos.PersonDTO;
-import facades.AddressAndCityInfoFacade;
 import facades.HobbyFacade;
-import facades.PersonFacade;
 import java.util.List;
 import utils.EMF_Creator;
 import javax.persistence.EntityManagerFactory;
@@ -26,9 +23,9 @@ public class HobbyResource {
             
     @GET
     @Produces({MediaType.APPLICATION_JSON})
-    public List<HobbyDTO> getAllPHobbies() {
+    public String getAllHobbies() {
         List<HobbyDTO> ListOfHobbies = FACADE.getAll();
-        return ListOfHobbies;
+        return GSON.toJson(ListOfHobbies);
 
     }
 }
