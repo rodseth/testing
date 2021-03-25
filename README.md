@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/JonathanPJuhl/CA-02.svg?branch=main)](https://travis-ci.com/JonathanPJuhl/CA-02)
+[![Build Status](https://travis-ci.com/rodseth/testing.svg?branch=main)](https://travis-ci.com/rodseth/testing)
 
 *This project is meant as start code for projects and exercises given in Flow-1+2 (+3 using the security-branch) at http://cphbusiness.dk in the Study Program "AP degree in Computer Science"*
 
