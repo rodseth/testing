@@ -9,7 +9,6 @@ import facades.HobbyFacade;
 import facades.PersonFacade;
 import java.util.List;
 import utils.EMF_Creator;
-
 import javax.persistence.EntityManagerFactory;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
